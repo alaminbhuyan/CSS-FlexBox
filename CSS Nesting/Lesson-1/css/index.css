@@ -1,0 +1,37 @@
+.parent {
+    background-color: aqua;
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+
+    /* child-1 style from here */
+    .child1 {
+        width: 10rem;
+        height: 10rem;
+        background-color: blueviolet;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        margin-bottom: 10px;
+
+        &:hover {
+            background-color: brown;
+        }
+    }
+
+    /* child-2 style from here */
+    .child2 {
+        width: 10rem;
+        height: 10rem;
+        background-color: rgb(221, 102, 22);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+
+        &:hover {
+            background-color: rgb(63, 165, 42);
+        }
+    }
+}
