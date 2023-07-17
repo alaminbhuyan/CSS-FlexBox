@@ -1,0 +1,14 @@
+
+All the properties:
+
+1) display : grid or inline-grid;
+
+==> Grid container properties
+
+1) grid-template-columns
+
+2) grid-template-rows 
+
+3) justify-content 
+
+4) align-content
